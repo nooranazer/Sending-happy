@@ -121,6 +121,11 @@ header ul li a:hover {
     margin-top: 16px;
 }
 
+#banner .banner-left a:hover{
+    background-color: #555555;
+
+}
+
 
 
 
@@ -193,8 +198,10 @@ footer .facebook {
     border-radius: 20px;
 }
 
-footer .facebook:hover{
+footer .facebook:hover , footer .twitter:hover, footer .linkedin:hover{
     background-color:orange;
+    transition: 1s;
+
 }
 
 footer .twitter{
@@ -203,16 +210,15 @@ footer .twitter{
     border-radius: 20px; 
 }
 
-footer .twitter:hover{
-    background-color:orange
-    
-}
+
 
 footer .linkedin {
     border: 2px solid black;
     padding:6.08px 11.66px 7.79px 10.53px;
     border-radius: 20px; 
 }
+
+
 
 footer p {
     padding: 55px;
