@@ -97,6 +97,15 @@ header ul li a:hover {
 
 }
 
+ #banner .banner-right img{
+    transition: 1s
+ }
+
+ #banner .banner-right img:hover{
+    border-radius: 20px;
+    transition: 1s
+ }
+
 #banner .banner-left a{
     font-family: work-sans;
     text-decoration: none;
@@ -175,16 +184,28 @@ footer .social-link {
     gap: 30px;
 }
 
+
+
+
 footer .facebook {
     border: 2px solid black;
     padding: 5.52px 14.95px 7.36px 13.63px;
     border-radius: 20px;
 }
 
-footer .twitter {
+footer .facebook:hover{
+    background-color:orange;
+}
+
+footer .twitter{
     border: 2px solid black;
     padding:6.59px 10.51px 7.02px 10.6px;
     border-radius: 20px; 
+}
+
+footer .twitter:hover{
+    background-color:orange
+    
 }
 
 footer .linkedin {
