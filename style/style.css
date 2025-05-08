@@ -1,0 +1,504 @@
+ /* header */
+
+header {
+    background-color: #FFF4E6;
+}
+
+header img {
+    margin-top: 26px;
+    margin-bottom: 34px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    gap: 56px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+header ul li:nth-child(1) a {
+    color: #FE8801;
+}
+
+header ul li a:hover {
+    color: #FE8801;
+}
+
+
+/* navbar */
+
+.navbar-drp-down{
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+ .dropdown-icon {
+    display: none;
+}
+
+.dropdown:hover  .navbar-drp-down {
+    display: block;
+}
+
+
+/* banner */
+
+#banner{
+    margin-bottom: 70px;
+    margin-top: 165px ;
+}
+
+#banner .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 92px;
+}
+
+
+#banner .banner-left h1{
+    font-size: 86.41px;
+    font-family: poppinsbold;
+    font-weight: 700;
+    line-height:92.17px ;
+    letter-spacing: -3%;
+    
+}
+
+#banner .banner-left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px ;
+    letter-spacing: 0%;
+    margin-top: 18.46px;
+    margin-bottom: 36px;
+
+
+}
+
+#banner .banner-left a{
+    font-family: work-sans;
+    text-decoration: none;
+    color: #FAF9F6;
+    padding-top: 20px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color:#42C2B2 ;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+
+
+/* service-page */
+
+#service .service-para p{
+    margin: 222.82px 351.5px 39.86px 305.69px;
+}
+
+
+#services .service-para h2{
+  font-size: 50px;
+  border: 1px;
+}
+
+.service-img {
+    margin-top: 34px;
+    margin-bottom: 160.22px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 14.78px;
+}
+
+.services-img-txt {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.services-img-txt .shadow {
+    position: absolute;
+    bottom: 0;
+}
+
+.services-img-txt .service-text {
+    position: absolute;
+    bottom: 0;
+    font-size: 20.33px;
+    padding: 20px;
+}
+
+/* footer */
+
+footer{
+    background-color: #FFF4E6;
+    text-align: center;
+    /* margin:50px */
+}
+
+footer .footer-logo{
+    margin-top: 91px; 
+    margin-bottom: 44px;
+}
+
+
+
+footer .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+footer .facebook {
+    border: 2px solid black;
+    padding: 5.52px 14.95px 7.36px 13.63px;
+    border-radius: 20px;
+}
+
+footer .twitter {
+    border: 2px solid black;
+    padding:6.59px 10.51px 7.02px 10.6px;
+    border-radius: 20px; 
+}
+
+footer .linkedin {
+    border: 2px solid black;
+    padding:6.08px 11.66px 7.79px 10.53px;
+    border-radius: 20px; 
+}
+
+footer p {
+    padding: 55px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    color: #555555;
+    
+}
+
+/* footer-img2{
+    width: 171.3px;
+    height: 86px;
+    top: 36.78px;
+    left: 1771px; 
+    border: 1.14px;   
+   
+} */
+
+
+
+/* Responsive style */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1284px) and (min-width:992px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    /* banner */
+
+    #banner .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #banner .banner-left h1 {
+        font-size: 66.41px;
+        line-height: 67.17px;
+        height: auto;
+    }    
+
+    #banner .banner-left p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        width: auto;
+        height: auto;
+        margin-top: 18.46p
+    }
+
+    #banner img {
+        width: 100%;
+    }
+
+    /* services */
+
+    .service-img {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+
+    .services-img-txt img, .shadow {
+        width: 100%;
+    }
+        
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) and (min-width:769px){
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    /* banner */
+
+    #banner .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: -100px;
+    }
+
+    #banner .banner-left h1 {
+        font-size: 51.41px;
+        line-height: 67.17px;
+        height: auto;
+    }    
+
+    #banner .banner-left p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0%;
+        width: auto;
+        height: auto;
+        margin-top: 18.46p
+    }
+
+    #banner img {
+        width: 100%;
+    }
+
+    
+
+    /* service */
+
+    .service-img {
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+
+    .services-img-txt img, .shadow {
+        width: 100%;
+    }
+
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) and (min-width: 596px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    header .navbar-right {
+        display: none;
+    }
+
+    header .container{
+        align-items: center;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .navbar-drp-down ul{
+        flex-direction: column;
+        gap: 10px;
+        background-color:  #FFF4E6;
+        padding: 20px;
+        position: absolute;
+        right: 25px;
+        top: 94px;
+    }   
+
+    .dropdown-icon {
+        display: flex;
+    }
+
+    /* banner */
+
+    #banner .container {
+        grid-template-columns: 1fr;
+    }
+
+    
+    #banner .container {
+        flex-direction: column;
+    }
+
+    #banner .banner-left h1 {
+        font-size: 68px;
+        line-height: 65px;
+        margin-top:-114px;
+    }
+
+    #banner .banner-left p {
+        margin-bottom: 35px;
+        font-size: 15px;
+    }
+
+    #banner .banner-left a {
+        padding: 18px 40px 24px 36px;
+        /* gap: 5px; */
+        background-color:#42C2B2 ;
+        text-align: center;
+        margin: 5px;
+        
+    } 
+
+    #banner img {
+        margin-top: -41px;
+        width: 100%;
+
+    }
+
+    /* services */
+
+
+    .service-img{
+        grid-template-columns: auto auto;
+        gap: 10px;
+        
+    }
+        
+    
+    .services-img-txt img, .shadow {
+        width: 100%;
+    }
+    
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 595px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    header .container{
+        align-items: center;
+    }
+
+    /* navbar */
+
+    .dropdown-icon:hover  .navbar-drp-down {
+        display: flex;
+    }
+
+    .navbar-drp-down ul{
+        flex-direction: column;
+        gap: 10px;
+        background-color:  #FFF4E6;
+        padding: 20px;
+        position: absolute;
+        right: 16px;
+        top: 94px;
+    }
+
+    header .navbar-right {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    
+    .dropdown-icon {
+        display: flex;
+    }
+
+    /* banner */
+
+    #banner .container {
+        grid-template-columns: 1fr;
+    }
+
+    #banner .banner-left h1{
+        font-size: 70.41px;
+        line-height: 73.17px;
+        margin-top: -104px;
+    }
+
+    #banner img {
+        margin-top: 15px;
+        width: 100%;
+
+    }
+
+    /* services */
+
+    .services-img-txt img{
+        width: 100%;
+    }
+
+    .service-img{
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+
+    .services-img-txt .shadow{
+        width: 100%;
+    }
+
+
+}
+
+
+/* for 450 and below size */
+@media only screen and (max-width: 450px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    #banner .banner-left h1{
+        font-size: 45.41px;
+        line-height: 47px;
+    }
+
+
+
+    #banner img{
+        margin-top: -23px;
+    }
+
+
+}
+
+
